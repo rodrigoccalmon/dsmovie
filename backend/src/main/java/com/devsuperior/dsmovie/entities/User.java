@@ -14,7 +14,7 @@ public class User {
 	private Long id;
 	private String email;
 	
-	private User() {}
+	public User() {}
 
 	public User(Long id, String email) {
 		this.id = id;
